@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    nav{
+        width: 85%;
+        margin: auto;
+    }
+  
+}
+#WelcomeVilla{
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0,0.5),rgb(0, 0, 0,0.5)),url(/assets/img/hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    .WelcomeVillacontainer{
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        padding: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        .row{
+            padding: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px; 
+          .WelcomeVillatext{
+            padding: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px; 
+            h1{
+                color: white;
+                font-size: 80px;
+                font-weight: 700;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 30px;
+                color: white;
+            }
+            div{
+                margin-top: 30px;
+                margin-bottom: 30px; 
+                padding: 30px;
+                button{
+                    border: none;
+                    color: white;
+                    background-color: #E61C5D;
+                    width: 220px;
+                    height: 40px;
+                    border-radius: 20px;
+                    &:hover{
+                        background-color: rgb(230, 28, 93,0.8);
+                    }
+                }
+                .download{
+                    width: 180px;
+                    height: 40px;
+                    border-radius: 20px;
+                    background-color: transparent;
+                    border: 1px solid white;
+                    &:hover{
+                        background-color:white;
+                        color: black;
+                    }
+                }
+            }
+          }  
+        }
+    }
+}
+#Visits{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    .Visitscontainer{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        .row{
+            img{
+                width: 250px;
+                margin-bottom: 10px;
+            }
+            .stars{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+#VisitsPlace{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    .VisitsPlacecontainer{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        .row{
+            .VisitsPlacetext{
+                width: 650px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                left: 200px;
+                gap: 10px;
+                margin-bottom: 25px;
+                h1{
+                    font-size: 60px;
+                    font-weight: 450;
+                }
+            }
+        }
+    }
+  
+}
+#RecentBlogs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    .RecentBlogscontainer{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        .row{
+            .RecentBlogstext{
+                width: 650px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                margin-bottom: 25px;
+                position: relative;
+                left: 200px;
+                h1{
+                    font-size: 60px;
+                    font-weight: 450;
+                }
+            }
+            .blogs{
+                display: flex;
+                gap: 22px;
+                img{
+                    width: 350px;
+                }
+            }
+        }
+    }
+  
+}
+
+#testimonial{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    .testimonialcontainer{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px; 
+        margin-top: 25px;
+        .row{
+            img{
+                margin-top: 25px;
+                margin-bottom: 25px;
+                width: 70px;
+                border-radius: 50%;
+            }
+        }
+    } 
+}
+footer{
+    width: 100%;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    .emailcontainer{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px; 
+        margin-top: 25px;
+        .row{
+            ol{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                list-style-type: none;
+                li{
+                    color: white;
+                }
+            }
+            div{
+                color: white;
+                p{
+                    font-family: cursive;
+                }
+                input{
+                    background-color: transparent;
+                    outline: none;
+                    border: none;
+                    padding-left: 15px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid white;
+                }
+            }
+        }
+    }
+}
